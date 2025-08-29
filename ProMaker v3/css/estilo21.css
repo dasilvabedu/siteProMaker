@@ -1,0 +1,1983 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Thasadith');
+/*index*/
+	html {
+		max-width: 2000px;
+		width: 100%;
+		height:100%;
+		margin:auto;
+	}
+	h2#convas {
+		font-family: 'Slabo 27px', serif;
+	border-bottom: 4px solid #000000;
+	display: block;
+	width: 80px;
+	margin-left: 150px;
+	margin-top: 100px
+	}
+	a#home{
+		font-family: 'Thasadith', sans-serif;
+		text-decoration: none;
+		color: black;
+		float: left;
+	}
+	li#casa{
+		
+		margin-top: -20px;
+		font-weight: bold;
+		display: inline-block;
+		background:url(http://allchemy.iq.usp.br/oqsp/oqsp-2019-cartaz.jpg);
+		transition: background-size 0s;
+		background-size: 0px;
+		background-position: 190px -70px;
+	}
+	li#casa:hover{
+		background-size: 250px;  
+	}
+	span#haus {
+		display: block;
+		background-color: rgba(253,253,253,.7);
+		padding: 25px;
+		font-size: 30px;
+		text-shadow: 1px 1px 0px;
+	}
+	/*Menu de navegação */
+	header {
+		margin: auto;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		background-color: rgba(1,170,255,1);
+		box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	}
+	
+	nav#menu ul{
+		list-style: none;
+	}
+		
+	
+	li#barra {
+		font-family: 'Thasadith', sans-serif;
+		font-weight:bolder;
+		display: inline-block;
+		background-color: rgba(1,170,255,1);
+		padding: 10px;
+		margin-top: -20px;
+		margin-bottom: 35px;
+		margin-left: 30px;
+		transition: background-color .4s;
+		box-shadow: 3px 3px 3px;
+	}
+	li#barra:hover {
+		background-color: white;
+	}
+	a#navigation {
+		text-decoration: none;
+		color: white;
+		transition: color .4s
+	}
+	a#navigation:hover{
+		color: black
+	}
+
+	p {
+	text-indent: 50px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	margin: 0px 150px 0px 150px;
+	font-weight: bold;
+	}
+
+	body {
+	background: url("fundovini2.jpg");
+	margin-top: 170px;
+	}
+/*Patrocínio*/
+	footer {
+		margin:  0px 150px 0px 150px;
+	}
+
+	img#Braskem {
+		height: 100px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 1px;
+		display: inline-block;
+		max-width: 200px;
+	}
+	section#patrocinio {
+		background-color: white;
+		width: 100%;
+		display: block;
+		float: right;
+	}
+	section#promocao {
+		background-color: white;
+		display: block;
+		float: left;
+		width: 100%;
+		height: 100%;
+	}
+	section#divulgacao {
+		background-color: white;
+		display: block;
+		float: left;
+		width: 100%;
+		height: 100%;
+	}
+	section#apoio {
+		background-color: white;
+		display: block;
+		float: right;
+		width: 100%;
+		margin-top: -20px;
+	}
+	img#logo {
+		height: 100px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 1px;
+		display: inline-block;
+		max-width: 200px;
+	}
+	img#ABQ {
+		height: 89px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 1px;
+		display: inline-block;
+		max-width: 300px;
+	}
+	img#ABIQUIM {
+		min-width: 150px;
+		height: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 1px;
+		display: inline-block;
+	}
+	table#table_patrocinio{
+		margin-top: -80px;	
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	section#developer{
+	background-color: black;
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 1%;
+	
+	}
+	p#anuncio{
+	font-family: 'Slabo 27px', serif;
+	font-size: 40px;
+	text-align:justify;
+	font-weight: bold;
+	margin-left: 20px;
+
+	}
+	/*Parte de História*/
+	section#test {
+		margin: 20px 50px 30px 50px;
+
+	}
+	
+	span#um {
+		background:url(walp1.jpg);
+		border: solid 1px white;
+		background-size: 450px 390px;
+		background-position: 50% 50%;
+		height: 390px;
+		max-width: 450px;
+		transition: background-size 5s;
+		display: block;
+
+	}
+	span#um:hover {
+		background:url(walp1.jpg);
+		background-size: 900px 780px;
+		background-position: 50% 50%;
+	}
+	span#dois {
+		font-family: 'Slabo 27px', serif;
+		background-size: 450px 990px;
+		display: block;
+		background-image: url(cartaz.jpg);
+		background-position: 50% 0%;
+		max-width: 450px;
+		height: 390px;
+		text-align: center;
+		border: 1px solid white;
+		transition: background-position 4s ease-in;
+	}
+	span#dois:hover {
+		background-position: 50% 100%;
+	}
+
+
+	section#quatro{
+		background-color: rgba(255,255,255,1);
+		margin-top: 10px;
+		height: 1170px;
+		display: block;
+		width: 70%;
+		
+	}
+	
+	aside#quadros{
+		float: right;
+		width: 30%;
+		margin-top: -1170px;	
+	}
+
+	span#um {
+		display:block;
+		background:url(walp1.jpg);
+		border: solid 1px white;
+		background-size: 600px 400px;
+		background-position: 50% 50%;
+		height: 200px;
+		transition: background-size 5s;
+		margin-bottom:10px;		
+	}
+
+	span#dois {
+		font-family: 'Slabo 27px', serif;
+		background-size: 500px 900px;
+		background-image: url(cartaz.jpg);
+		height: 500px;
+		text-align: center;
+		border: 1px solid white;
+		box-shadow: 3px 3px 3px 3px rgba(0,0,0,.2);
+		background-position: 50% 0%;
+		transition: background-position 7s ease-in;
+		display:block;
+    	margin-bottom:10px;    	
+	}
+
+
+
+	
+	/*Notícias*/
+	a#Geburstag {
+		text-decoration: none;
+		color: black;
+		
+	}
+	section#geral{
+		background-color: rgba(255,255,255,.9);
+		box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+		display: block;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+	
+	h1#principal {
+		padding: 50px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 60px;
+		margin-top: 170px;
+		text-align: center;
+		background-color: rgba(255,255,255,.9);
+		border: 5px solid;
+		border-color: rgba(0,0,0,1);
+		box-shadow: 8px 8px 8px rgba(0,0,0,.3);
+		display:block;
+		margin: 0px 50px 0px 50px;
+	}
+	h2#noticia {
+		font-family: 'Thasadith', sans-serif;
+		font-size: 20px;
+		background-color: rgba(255,255,255,1);
+		display: block;
+		padding: 10px;
+		transition: background-color .4s;
+                margin-top: -20px;
+		font-weight: bold;
+		text-align: center;
+		border: 5px solid;
+		border-color: rgba(88,239,252,1);
+
+	}
+	h2#noticia:hover {
+		background-color: rgba(88,239,252,1);
+		
+	}
+
+	a#noticias {
+		text-decoration: none;
+		color: black;
+
+	}
+	h1#freund {
+		font-family: 'Slabo 27px', serif;
+		font-size: 50px;
+		text-align: center;
+		background-color: rgba(255,255,255,.8);
+		display: block;
+		font-weight: bold;
+		letter-spacing: 10px;
+		color: red;
+		text-shadow: 1px 1px 1px rgba(0,0,0,.8); 
+	}
+	/*Painel chamativo das inscrições*/
+	
+	h1#subum {
+		line-height: 50px; 
+		margin-top: 0px;
+		font-size: 25px;	
+	}
+	h1#subdois {
+		margin-top: 50px;
+		font-size: 20px;
+	}
+	
+	hgroup {
+		font-family: 'Slabo 27px', serif;
+		text-align: center;
+		background-color: rgba(255,255,255,.7);
+		height: 390px;
+		font-weight: bolder;
+		letter-spacing: 5px;
+		opacity: 1;
+		transition: background-color 4s;
+		margin-top: 0px;
+	}
+	hgroup:hover{
+		background-color: rgba(255,255,255,0);
+	}
+	
+	
+	h1#arte {
+		font-family: 'Slabo 27px', serif;
+		text-align: center;
+		background-color: rgba(1,170,200,1);
+		height: 80px;
+		line-height: 90px;
+		margin-top: -60px;
+		font-size: 20px;
+
+	}
+	
+	a#mds {
+		color: black;
+		transition: color 4s;
+		text-decoration: none;
+	}
+	a#mds:hover {
+		color: white;
+	}
+	a#fundo_cartaz {
+		color: black;
+		text-decoration: none;
+
+	}
+	
+		
+	h1#artexc  {
+		font-family: 'Slabo 27px', serif;
+		text-align: center;
+		background-color: rgba(1,170,200,0);
+		height:390px;
+		line-height: 90px;
+		margin-top: 0px;
+		font-size: 20px;
+	}
+
+
+	p#assist {
+		background-color: black;
+		color: rgba(211,211,211,1);
+		font-size: 16px;
+		text-align: center;
+	}
+	
+
+	/*Inscreva-se*/
+	div#leia {
+		color: red;
+	}
+	h1#way {
+		font-family: 'Slabo 27px', serif;
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+	p#micro {
+	text-indent: 50px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	margin: 0px 150px 0px 150px;
+	font-weight: bold;
+	}
+	h1#Notts {
+		font-family: 'Slabo 27px', serif;
+		margin-left: 150px;
+	}
+	
+	h1#botao {font-family: 'Slabo 27px', serif;
+	margin: 0px 150px 0px 150px;
+	display: inline-block; 
+	background-color: rgba(1,170,255,1);
+	padding: 20px;
+	transition: background-color .4s;
+	}
+	a#formulario{
+	text-decoration: none;
+	color: black;
+	}
+	h1#botao:hover {
+	background-color: white;
+	}
+	p#vagas {
+	text-indent: 50px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 30px;
+	text-align:justify;
+	margin: 0px 150px 0px 150px;
+	font-weight: bold;
+	}
+
+	
+	a#red{
+		text-decoration: none;
+		display: block;
+		height: 100px;
+		color: black;
+		background-position: -350px -50px;
+		transition: height .3s;
+	}
+	a#red:hover {
+		height: 250px;
+		background: url(20anos.jpg) no-repeat ;
+		background-position: -350px -50px;
+	}
+	a#fuvs {
+		text-decoration: none;
+		display: block;
+		height: 100px;
+		background-position: 50px -50px;
+		color: black;
+		transition: height .3s;
+		
+	}
+	a#fuvs:hover {
+		height: 200px;
+		background: url(Fuvest.jpg) no-repeat;
+		background-position: 50px -50px;
+		
+	}
+	a#TVQ{
+		text-decoration: none;
+		display: block;
+		height: 100px;
+		color: black;
+		background-position: 100px -50px;
+		transition: height .3s;
+	}
+	a#TVQ:hover {
+		height: 200px;
+		background: url(TVQ.jpg) no-repeat;
+		background-position: 100px -50px;
+		
+	}
+	a#Reg{
+		text-decoration: none;
+		display: block;
+		height: 100px;
+		color: black;
+		background-position: 100px -20px;
+		transition: height .3s;
+	}
+	a#Reg:hover {
+		height: 200px;
+		background: url(ORQ.jpg) no-repeat;
+		background-position: 100px -20px;
+		
+	}
+	
+	span#branquinho:hover{
+		display: block;
+		background-color: rgba(253,253,253,.9);
+		height: 250px;
+	}
+	p#RPDG {
+		text-indent: 50px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 30px;
+		text-align: justify;
+		margin: 0px 150px 0px 150px;
+		font-weight: bolder;
+		letter-spacing: 5px;
+		color: rgba(255,15,9,1);
+	}
+
+	img#fluxo {
+		width: 90%;
+		height: 50%;
+	}
+
+	/*calendario*/
+	table#calen {
+	border: 1px solid;
+	border-spacing: 0px;
+	margin: 0px 150px 0px 150px;	
+	}
+	td#data {
+	font-family: 'Thasadith', sans-serif;
+	border: 1px solid;
+	border-color: ;
+	background-color:rgba(1,210,255,1); 
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	}
+	caption {
+	margin-top: 170px;
+	font-family: 'Slabo 27px', serif;
+	font-size:50px;
+	border: 1px solid;
+	background-color:rgba(1,220,255,1);
+	}	
+
+
+	/*edicoes*/
+
+	a#olim{
+	font-family: 'Thasadith', sans-serif;
+	font-size: 19px;
+	text-align:justify;
+	margin: 0px 0px 0px 0px;
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+	}
+	aside#pubs {
+		float: right;
+		display: block;
+		margin-top: -640px;
+	}
+	a#olim:hover {
+		color: red;
+	}
+	h1#edant{ 
+		font-family:'Slabo 27px', serif;
+		text-indent: 50px;
+		font-size: 25px;
+	}
+	h1#redant {
+		font-family:'Slabo 27px', serif;
+		text-indent: 50px;
+		font-size: 25px;
+	}
+	
+	h1#titulos {
+		font-family:'Slabo 27px', serif;
+		text-indent: 50px;
+		font-weight: bold;
+		font-size: 30px;
+		border-bottom: 3px solid white;
+		display: block;
+		width: 900px;
+		box-shadow: 3px 0px 0px white;
+
+	}
+	section#comeco_edicao {
+		display:block;
+		transition: box-shadow .3s;
+	}
+	h1#Was {
+		font-family:'Slabo 27px', serif;
+		text-indent: 50px;
+		font-weight: bold;
+		font-size: 50px;
+		text-align: center;
+		color: rgba(255,255,255,1);
+		text-shadow: 1px 1px 1px black;
+		background-color: rgba(118,209,255,1);
+		display: block;
+		transition: box-shadow .3s;
+	}
+	h1#Was:hover {
+		box-shadow: 4px 4px 4px rgba(0,0,0,.5); 
+	}
+	section#Wenn {
+		display:block;
+		transition: box-shadow .3s;
+	}
+	h1#idd {
+		font-family:'Slabo 27px', serif;
+		font-weight: bold;
+		font-size: 50px;
+		text-align: center;
+		margin-top: 0px;
+	}
+	section#common {
+		transition: border-style .3s;
+		transition: border-width .3s;
+	}
+	section#common:hover {
+		border-style: solid;
+		border-width: medium;
+		border-color: rgba(118,209,255,1);
+	}
+	img#capasant {
+		height: 10%;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	td#dadosant {
+	font-family: 'Thasadith', sans-serif;
+	border: 1px solid;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	}
+	td#titant {
+	font-family: 'Slabo 27px', serif;
+	border: 1px solid;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	}
+
+	/*regulamento*/
+	
+	
+li#regulamento {
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align:justify;
+	margin: 0px 150px 0px 150px;
+	color: red
+}
+a#allchemy{
+	text-decoration: none;
+	color: blue
+}
+a#allchemy:hover{
+	color: red
+}
+h1#botao {font-family: 'Slabo 27px', serif;
+margin: 0px 150px 0px 150px;
+display: inline-block; 
+background-color: rgba(1,170,255,1);
+padding: 20px;
+transition: background-color .4s;
+}
+a#formulario{
+	text-decoration: none;
+	color: black;
+}
+h1#botao:hover {
+	background-color: white;
+}
+h1#mirai {
+	font-family: 'Slabo 27px', serif;
+	text-indent: 50px;
+	font-size: 25pt;
+	margin-top: 100px;
+	}
+h2#neutitle {
+	font-family: 'Slabo 27px', serif;
+	text-indent: 30px;
+	margin-left: 10px;
+}
+h2#zwei{
+	font-family: 'Slabo 27px', serif;
+	text-indent: 30px;
+	margin-left: 10px;
+}
+h2#eve{
+	font-family: 'Slabo 27px', serif;
+	text-indent: 50px;
+	margin-left: 10px;
+}
+
+	/*formulario*/
+	
+	a#allchemy{
+	text-decoration: none;
+	color: blue
+}
+a#allchemy:hover{
+	color: red
+}
+fieldset{
+	border: none;
+	font-family: 'Thasadith', sans-serif;
+	font-weight:bold;
+}
+
+p#formulario {font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	margin: 0px 150px 0px 150px;
+	font-weight: bold;
+}
+
+h1#trinity{
+font-family: 'Slabo 27px', serif;
+text-indent: 50px;
+margin-top: 10px;
+}
+
+iframe#google_form {
+	margin-top: 30px;
+	width: 60%;
+	height: 700px;
+	margin-left: 20%; 
+	opacity: 1;
+	position: static;
+}
+
+section#option_form {
+	opacity: 0;
+	position: absolute;
+}
+
+form {
+	opacity: 0;
+	position: absolute;
+}
+
+	/*auxilio*/
+	
+
+	ul#linkstop {
+		width: 700px;
+		margin: 0 auto;
+		padding: 50px;
+		overflow: hidden;
+		list-style: none; 
+	}
+	ul#linkstop li{
+		float: left;
+		width: 200px;
+		height: 200px;
+		margin: 30px;
+		border:5px solid white;
+		background-color: #ffffff;
+		box-shadow: 1px 1px 5px rgba(0,0,0,.6);
+		-webkit-transition: all .2s ease-in;
+	}
+	li#material1{
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background-image: url(http://allchemy.iq.usp.br/oqsp/oqsp-2019-cartaz.jpg) ;
+		background-position: 50% 50%;
+		background-size: 400px 400px;
+		background-color: white
+	}
+	li#material1:hover{
+		background-position: 0px 0px;
+		background-size: 200px 300px;
+	}
+	li#material2{
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background-image: url(http://allchemy.iq.usp.br/oqsp/oqsp-2019-cartaz.jpg) ;
+		background-position: 50% 50%;
+		background-size: 400px 400px;
+		background-color: white
+	}
+	li#material2:hover{
+		background-position: 0px 0px;
+		background-size: 200px 300px;
+	}
+	li#material3{
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background: url("folheto.png") ;
+		background-position: 50% 50%;
+		background-size: 400px 400px;
+		background-color: white
+	}
+	li#material3:hover{
+		background-position: -30px 0px;
+		background-size: 275px 200px;
+	}
+	li#material4{
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background-image: url(http://allchemy.iq.usp.br/oqsp/oqsp-fluxograma.jpg) ;
+		background-position: 50% 50%;
+		background-size: 400px 400px;
+		background-color: white
+	}
+	li#material4:hover{
+		background-position: 0px 0px;
+		background-size: 200px 200px;
+	}
+
+	li#material6 {
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background-image: url(20anos.jpg) ;
+		background-position: 50% 50%;
+		background-size: 400px 400px;
+		background-color: white;
+	}
+	li#material6:hover{
+		background-position: 0px 0px;
+		background-size: 200px 200px;
+	}
+	ul#linkstop li span{
+		color: white;
+		text-shadow: 1px 1px 1px black;
+		background-color: rgba(0,0,0,.3); 
+		font-size: 9pt;
+		line-height: 370px;
+		padding: 5px;
+	}
+	ul#linkstop li:hover {
+		-webkit-transform:scale(1.5);
+	}
+	li#exemplos {
+	text-indent: 150px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	font-weight: bold;
+	display: inline-block;
+	list-style: none;
+	}
+	a#ex{
+	text-decoration: none;
+	color: blue;
+	}
+	a#ex:hover{
+	color: red;
+	}
+	
+	h1#write {
+		font-family: 'Slabo 27px', serif;
+		margin-left: 150px;
+	}
+	h1#material_divulgacao {
+		font-family: 'Slabo 27px', serif;
+		text-indent: 50px;
+	}
+	a#EOQ {
+		font-family: 'Slabo 27px', serif;
+		color: black;
+		background-color: rgba(255,255,255,.4);
+		display: block;
+		width: 80%;
+		margin-left: 120px;
+		height: 40px;
+		text-decoration: none;
+		font-size: 30px;
+		transition: all .5s;
+	}
+	a#EOQ:hover {
+		font-family: 'Slabo 27px', serif;
+		color: white;
+		background-color: rgba(1,170,255,1);
+	}
+	
+	/*resultados*/
+	
+li#premios{
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	margin: 0px 150px 0px 150px;
+	font-weight: bold;
+	}
+	
+	h1#chemie {
+		font-family: 'Slabo 27px', serif;
+		text-indent: 50px;
+	}
+	li#ouro {
+		background: url(gold.jpg) no-repeat;
+		display: inline-block;
+		width: 200px;
+		height: 250px;
+		margin: 50px;
+		margin-left: 150px;
+		line-height: 370px;
+		text-indent: 35px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	li#prata{
+		background: url(silver.jpg) no-repeat;
+		display: inline-block;
+		width: 200px;
+		height: 250px;
+		margin: 50px;
+		line-height: 370px;
+		text-indent: 40px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	li#bronze{
+		background: url(bronze.jpg) no-repeat 250px 0px;
+		display: inline-block;
+		width: 500px;
+		height: 250px;
+		margin: 50px;
+		line-height: 365px;
+		text-indent: 277px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	h1#premiados {
+		font-family: 'Slabo 27px', serif;
+		text-indent: 150px;
+		opacity:0;
+		position: fixed;
+	}
+
+	/*Coordenadores*/
+	h1#coord {
+		font-family: 'Slabo 27px', serif;
+		text-align: center;
+		background-color: rgba(118,209,255,1);
+		font-size: 40px;
+		height: 100px;
+		letter-spacing: 7px;
+		line-height: 100px;
+		transition: box-shadow .2s;
+	}
+
+	h1#coord:hover {
+		box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+	}
+
+	@media (max-width: 1218px) {
+		html {
+			min-width: 100px;
+			margin: auto;
+		}
+		/*index*/
+		a#home{
+		font-family: 'Thasadith', sans-serif;
+		color: white;
+		margin-top: 0px;
+		margin-left:auto;
+		float: none;
+		}
+		h2#convas{
+		font-family: 'Slabo 27px', serif;
+		border-bottom: 4px solid #000000;
+		display: block;
+		width: 80px;
+		margin-left: 150px;
+		margin-top: 0px
+		}
+
+		a#home:hover{
+			color:black;
+		}
+		span#haus {
+		display: block;
+		background-color: rgba(253,253,253,.7);
+		padding: 30px;
+		font-size: 30px;
+		text-shadow: 1px 1px 0px;
+		margin-bottom: 3%;
+		width: 90%;
+	}
+
+		span#haus:hover {
+		background-color: white; 
+		}
+		li#casa{
+		
+		margin-top: -100px;
+		font-weight: bold;
+		display: block;
+		background:url(http://allchemy.iq.usp.br/oqsp/oqsp-2019-cartaz.jpg);
+		transition: background-size 0s;
+		background-size: 0px;
+		background-position: 190px -70px;
+	}
+		li#casa:hover{
+		background-size: 0px;  
+		}
+	span#haus {
+		display: block;
+		background-color: rgba(1,170,255,1);
+		padding: 10px;
+		font-size: 20px;
+		text-shadow: 0px 0px 0px;
+		font-weight: bold;
+		text-align: center;
+		transition: background-color .4s;
+	}
+	/*Menu de navegação */
+	header {
+		position: static;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(1,170,255,0);
+		box-shadow: 0px 0px 0px;
+		margin: auto;
+		}
+	nav#menu ul{
+		list-style: none;
+	}
+
+	li#barra {
+		position: static;
+		font-family: 'Thasadith', sans-serif;
+		font-weight:bolder;
+		display: block;
+		background-color: rgba(1,170,255,1);
+		padding: 10px;
+		margin-top: 0px;
+		margin-bottom: 25px;
+		margin-left: 0%;
+		box-shadow: 0px 0px 0px;
+		width: 90%;
+		text-align: center;
+
+	}
+	li#barra:hover {
+		background-color: white;
+	}
+	a#navigation {
+		text-decoration: none;
+		color: white;
+		transition: color .4s
+	}
+	a#navigation:hover{
+		color: black
+	}
+
+	p {
+	text-indent: 30px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 17px;
+	text-align:justify;
+	margin: 0px 20px 0px 20px;
+	font-weight: bold;
+	max-width: 1200px;
+	width: 80%;
+	}
+
+	body {
+		background: url("fundovini2.jpg");
+		margin-top: 30%;
+		background-position: 100% 100%;
+
+
+	}
+/*Patrocínio*/
+	footer {
+		display: block;
+		background-color: rgba(255,255,255,1);
+		box-shadow: 1px 2px 2px 4px rgba(0,0,0,.5);
+		margin:  auto;
+		min-width: 0px;
+		width: 100%;
+		max-width: 1200px;
+	}
+
+	section#patrocinio {
+		background-color: white;
+		border: 3px solid;
+		border-color: rgba(255,255,255,1);
+		width: 99%;
+		
+
+	}
+	section#promocao {
+		background-color: white;
+		display: block;
+		float: none;
+		width: 99%;
+		border: 3px solid;
+		border-color: rgba(255,255,255,1);
+	}
+	section#divulgacao {
+		background-color: white;
+		display: block;
+		float: none;
+		border: 3px solid;
+		border-color: rgba(255,255,255,1);
+		width: 99%;
+	}
+	section#apoio {
+		background-color: white;
+		display: block;
+		float: none;
+		border: 3px solid;
+		border-color: rgba(255,255,255,1);
+		width: 99%;
+	}
+	img#logo{
+		height: 100px;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding: 1px;
+		display: inline-block;
+		max-width: 300px;
+		margin-top: 20px;
+	}
+	img#ABQ{
+		height: 89px;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding: 1px;
+		display: inline-block;
+		max-width: 300px;
+		margin-top: 20px;
+	}
+	img#Braskem {
+		width: 172px;
+		height: 150px;
+		height: 100px;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding: 1px;
+		display: inline-block;
+		max-width: 300px;
+		margin-top: 20px;
+	}
+	img#ABIQUIM {
+		max-width: 100px;
+	}
+	table#table_patrocinio{
+		margin-top: -80px;	 
+		margin-bottom: 20px;
+	}
+	td#adjust {
+		display: block;
+	}
+
+	section#developer{
+	background-color: black;
+	display: block;
+	float: none;
+	width: 100%;
+	}
+	
+	p#anuncio{
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	font-weight: bold;
+	margin-left: 0px;
+	width: 100%;
+	height: 100%;
+	}
+	/*Parte de História*/
+	section#test {
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+	aside#quadros {
+		width: 100%;
+		float: none;
+		margin-top: 650px;
+		margin-left: 1%;
+	}
+	span#um {
+		display:block;
+		background:url(walp1.jpg);
+		border: solid 1px white;
+		background-size: 600px 400px;
+		background-position: 50% 50%;
+		height: 200px;
+		transition: background-size 5s;
+		margin-bottom:10px;
+		
+	}
+	span#um:hover {
+		background:url(walp1.jpg);
+		background-size: 1000px 700px;
+		background-position: 50% 50%;
+	}
+	span#dois {
+		font-family: 'Slabo 27px', serif;
+		background-size: 500px 840px;
+		background-image: url(cartaz.jpg);
+		height: 500px;
+		text-align: center;
+		border: 1px solid white;
+		box-shadow: 3px 3px 3px 3px rgba(0,0,0,.2);
+		background-position: 50% 0%;
+		transition: background-position 7s ease-in;
+		display:block;
+    	margin-bottom:10px;
+    	
+	}
+	span#dois:hover {
+		background-position: 50% 0%;
+	}
+	
+
+	section#quatro{
+		background-color: rgba(255,255,255,1);
+		margin-top: 10px;
+		height: 50px;
+		display:block;
+    	margin-bottom: 70px;
+    	width: 100%;
+    
+	}
+	
+	h1#tut {
+		line-height: 100px;
+		font-family: 'Slabo 27px', serif;
+		text-align: center;
+		transition: background-color 1s;
+		background-color: rgba(253,253,253,.4);
+		font-size: 20px;
+		height: 200px;
+		transition: height 2s;
+		margin-top: 0px;
+	}
+
+	h1#tut:hover{
+		background-color: rgba(253,253,253,.9);
+		height: 200px;
+		margin-top: 0px;
+			}
+	
+	/*Notícias*/
+	a#Geburstag {
+		text-decoration: none;
+		color: black;
+	}
+	section#geral{
+		background-color: rgba(255,255,255,.9);
+		box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+	
+	h1#principal {
+		
+		font-family: 'Slabo 27px', serif;
+		font-size: 30px;
+		margin-top: 70px;
+		text-align: center;
+		background-color: rgba(255,255,255,.7);
+		margin:auto;
+	}
+	h2#noticia {
+		font-family: 'Thasadith', sans-serif;
+		font-size: 15px;
+		background-color: rgba(255,255,255,1);
+		display: block;
+		padding: 10px;
+		transition: background-color .4s;
+		margin-top: -20px;
+		font-weight: bold;
+		text-align: center;
+
+
+	}
+	h2#noticia:hover {
+		background-color: rgba(88,239,252,1); 
+	}
+
+	a#noticias {
+		text-decoration: none;
+		color: black;
+	}
+	h1#freund {
+		font-family: 'Slabo 27px', serif;
+		font-size: 25px;
+		background-color: rgba(255,255,255,.8);
+		display: block;
+		padding: 5px;
+		font-weight: bold;
+		width: 50%;
+	}
+	
+	h1#subum {
+		line-height: 40px; 
+		margin-top: 0px;
+		font-size: 15px;	
+	}
+	h1#subdois {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+	
+	hgroup {
+		font-family: 'Slabo 27px', serif;
+		text-align: center;
+		background-color: rgba(255,255,255,.7);
+		height: 200px;
+		font-weight: bolder;
+		letter-spacing: 2px;
+		opacity: 1;
+		transition: background-color 4s;
+		margin-top: 0px;
+	}
+	hgroup:hover{
+		background-color: rgba(255,255,255,0);
+	}
+	
+	
+	h1#arte {
+		background-color: rgba(1,170,200,1);
+		height: 50px;
+		line-height: 60px;
+		margin-top: -50px;
+		font-size: 15px;
+	}
+	
+	a#mds {
+		color: black;
+		transition: color 4s;
+	}
+	a#mds:hover {
+		color: black;
+	}
+	a#fundo_cartaz {
+		color: black;
+		text-decoration: none;
+
+	}
+
+
+
+
+
+
+
+
+	/*Inscreva-se*/
+	p#micro {
+	text-indent: 10px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	margin: 0px 50px 0px 50px;
+	font-weight: bold;
+	}
+	h1#Notts {
+		font-family: 'Slabo 27px', serif;
+		margin-left: 10px;
+		text-indent: 15px;
+		font-size: 20px;
+		margin-right: 10px;
+	}
+	
+	h1#botao {font-family: 'Slabo 27px', serif;
+	margin: 0px 50px 0px 50px;
+	display: inline-block; 
+	background-color: rgba(1,170,255,1);
+	padding: 5px;
+	font-size: 15px;
+	transition: background-color .4s;
+	}
+	a#formulario{
+	text-decoration: none;
+	color: black;
+	}
+	h1#botao:hover {
+	background-color: white;
+	}
+	p#vagas {
+	text-indent: 10px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 25px;
+	text-align:justify;
+	margin: 0px 50px 0px 50px;
+	font-weight: bold;
+	}
+
+	
+	a#red{
+		text-decoration: none;
+		display: block;
+		height: 250px;
+		color: black;
+		background-position: 0px 0px;
+		background: url(20anos.jpg) no-repeat ;
+		transition: height .3s;
+	}
+	a#red:hover {
+		height: 250px;
+		background: url(20anos.jpg) no-repeat ;
+		max-width: 1000px;
+		background-position: 0px 0px;
+
+	}
+	a#fuvs {
+		text-decoration: none;
+		display: block;
+		height: 250px;
+		background-position: 0px 0px;
+		color: black;
+		background: url(Fuvest.jpg) no-repeat;
+		transition: height .3s;
+		
+	}
+	a#fuvs:hover {
+		height: 250px;
+		background: url(Fuvest.jpg) no-repeat;
+		background-position: 0px 0px;
+		
+	}
+	a#TVQ{
+		text-decoration: none;
+		display: block;
+		height: 250px;
+		color: black;
+		background-position: 0px 0px;
+		transition: height .3s;
+		background: url(TVQ.jpg) no-repeat;
+	}
+	a#TVQ:hover {
+		height: 250px;
+		background: url(TVQ.jpg) no-repeat;
+		background-position: 0px 0px;
+		
+	}
+	a#Reg{
+		text-decoration: none;
+		display: block;
+		height: 250px;
+		color: black;
+		background-position: 0px 0px;
+		transition: height .3s;
+		background: url(ORQ.jpg) no-repeat;
+	}
+	a#Reg:hover {
+		height: 250px;
+		background: url(ORQ.jpg) no-repeat;
+		background-position: 0px 0px;
+		
+	}
+	
+	span#branquinho {
+		display: block;
+		background-color: rgba(253,253,253,.9);
+		height: 250px;
+	}
+	span#branquinho:hover{
+		display: block;
+		background-color: rgba(253,253,253,.9);
+		height: 250px;
+	}
+	p#RPDG {
+		text-indent: 10px;
+		font-family: 'Thasadith', sans-serif;
+		font-size: 20px;
+		text-align:justify;
+		margin: 0px 50px 0px 50px;
+		font-weight: bold;
+		font-weight: bolder;
+		letter-spacing: 2px;
+		color: rgba(255,15,9,1);
+	}
+
+
+
+
+
+
+
+	/*calendario*/
+	table#calen {
+	border: 1px solid;
+	border-spacing: 0px;
+	margin: 0px 2px 0px 2px;	
+	}
+	td#data {
+	font-family: 'Thasadith', sans-serif;
+	border: 1px solid;
+	border-color: ;
+	background-color:rgba(1,220,255,1); 
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+
+	}
+	caption {
+	margin-top: 30px;
+	font-family: 'Slabo 27px', serif;
+	font-size:50px;
+	border: 1px solid;
+	background-color:rgba(1,220,255,1);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*edicoes*/
+
+	a#olim{
+	font-family: 'Thasadith', sans-serif;
+	font-size: 19px;
+	text-align:justify;
+	margin: 0px 20px 0px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+	}
+	aside#pubs{
+		float: none;
+		margin-top: 10px;
+		display: block;
+	}
+	a#olim:hover {
+		color: red;
+	}
+	h1#edant{
+		text-indent: 40px; 
+		font-family:'Slabo 27px', serif;
+		margin-left: 10px;
+	}
+	h1#redant {
+		margin-left: 10px;
+		text-indent: 40px; 
+		font-family:'Slabo 27px', serif;
+	}
+	h1#titulos {
+		font-family:'Slabo 27px', serif;
+		text-indent: 50px;
+		font-weight: bold;
+		font-size: 30px;
+		border-bottom: 3px solid white;
+		display: block;
+		max-width: 330px;
+		margin-left: 10px;
+		box-shadow: 3px 0px 0px white;
+
+	}
+	section#comeco_edicao {
+		display:block;
+		transition: box-shadow .3s;
+	}
+	h1#Was {
+		font-family:'Slabo 27px', serif;
+		text-indent: 50px;
+		font-weight: bold;
+		font-size: 40px;
+		text-align: center;
+		color: rgba(255,255,255,1);
+		text-shadow: 1px 1px 1px black;
+		background-color: rgba(118,209,255,1);
+		display: block;
+		transition: box-shadow .3s;
+	}
+	h1#Was:hover {
+		box-shadow: 0px 0px 0px rgba(0,0,0,.5); 
+	}
+	section#Wenn {
+		display:block;
+		transition: box-shadow .3s;
+	}
+	h1#idd {
+		font-family:'Slabo 27px', serif;
+		font-weight: bold;
+		font-size: 40px;
+		text-align: center;
+		margin-top: 0px;
+	}
+	section#common {
+		transition: border-style .3s;
+		transition: border-width .3s;
+	}
+	section#common:hover {
+		border-style: none;
+		border-width: medium;
+		border-color: rgba(118,209,255,1);
+	}
+
+	img#capasant {
+		height: 10%;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+
+
+
+
+
+
+
+
+
+	/*regulamento*/
+	
+	
+li#regulamento {
+	font-family: 'Thasadith', sans-serif;
+	font-size: 17px;
+	font-weight: bolder;
+	text-align:justify;
+	margin: 0px 50px 0px 50px;
+	color: red
+}
+h2#eve{
+	font-family: 'Slabo 27px', serif;
+	margin: 0px 10px 0px 50px;
+	text-indent: 30px
+}
+a#allchemy{
+	text-decoration: none;
+	color: blue
+}
+h1#mirai {
+	font-family: 'Slabo 27px', serif;
+	text-indent: 50px;
+	font-size: 25pt
+}
+h2#neutitle {
+	font-family: 'Slabo 27px', serif;
+	text-indent: 30px;
+	margin-left: 10px;
+}
+h2#zwei{
+	font-family: 'Slabo 27px', serif;
+	text-indent: 30px;
+	margin-left: 10px;
+}
+a#allchemy:hover{
+	color: red
+}
+h1#botao {font-family: 'Slabo 27px', serif;
+margin: 0px 150px 0px 150px;
+display: inline-block; 
+background-color: rgba(1,170,255,1);
+padding: 20px;
+transition: background-color .4s;
+}
+a#formulario{
+	text-decoration: none;
+	color: black;
+}
+h1#botao:hover {
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*formulario*/
+	
+	a#allchemy{
+	text-decoration: none;
+	color: blue
+}
+a#allchemy:hover{
+	color: red
+}
+fieldset{
+	border: none;
+	font-family: 'Thasadith', sans-serif;
+	font-weight:bold;
+}
+
+p#formulario {
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	margin: 0px 10px 0px 10px;
+	font-weight: bold;
+}
+h1#trinity{
+font-family: 'Slabo 27px', serif;
+text-indent: 50px;
+margin-top: 10px;
+}
+
+iframe#google_form {
+	margin-top: 30px;
+	width: 90%;
+	height: 700px;
+	margin-left: 0%; 
+	opacity: 1;
+	position: static;
+}
+
+section#option_form {
+	opacity: 0;
+	position: absolute;
+}
+
+form {
+	opacity: 0;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*auxilio*/
+	
+
+	ul#linkstop {
+		width: 400px;
+		margin: 0 auto;
+		padding: 50px;
+		overflow: hidden;
+		list-style: none; 
+	}
+	ul#linkstop li{
+		float: left;
+		width: 200px;
+		height: 200px;
+		margin: 30px;
+		border:5px solid white;
+		background-color: #ffffff;
+		box-shadow: 1px 1px 5px rgba(0,0,0,.6);
+		-webkit-transition: all .2s ease-in;
+	}
+	li#material1{
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background-image: url(http://allchemy.iq.usp.br/oqsp/oqsp-2019-cartaz.jpg) ;
+		background-position: 50% 50%;
+		background-size: 200px 300px;
+		background-color: white
+	}
+	li#material1:hover{
+		background-position: 50% 50%;
+		background-size: 200px 300px;
+	}
+	li#material2{
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background-image: url(http://allchemy.iq.usp.br/oqsp/oqsp-2019-cartaz.jpg) ;
+		background-position: 50% 50%;
+		background-size: 200px 300px;
+		background-color: white
+	}
+	li#material2:hover{
+		background-position: 50% 50%;
+		background-size: 200px 300px;
+	}
+	li#material3{
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background: url("folheto.png") ;
+		background-position: 50% 50%;
+		background-size: 275px 200px;
+		background-color: white
+	}
+	li#material3:hover{
+		background-position: 50% 50%;
+		background-size: 275px 200px;
+	}
+	li#material4{
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background-image: url(http://allchemy.iq.usp.br/oqsp/oqsp-fluxograma.jpg) ;
+		background-position: 50% 50%;
+		background-size: 200px 200px;
+		background-color: white
+	}
+	li#material4:hover{
+		background-position: 0px 0px;
+		background-size: 200px 200px;
+	}
+
+	li#material6 {
+		font-family: 'Thasadith', sans-serif;
+		font-weight: bold;
+		background-image: url(20anos.jpg) ;
+		background-position: 0% 0%;
+		background-size: 200px 200px;
+		background-color: white;
+	}
+	li#material6:hover{
+		background-position: 0px 0px;
+		background-size: 200px 200px;
+	}
+	ul#linkstop li span{
+		color: white;
+		text-shadow: 1px 1px 1px black;
+		background-color: rgba(0,0,0,.3); 
+		font-size: 9pt;
+		line-height: 370px;
+		padding: 5px;
+	}
+	ul#linkstop li:hover {
+		-webkit-transform:scale(1.0);
+	}
+	li#exemplos {
+	text-indent: 10px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	font-weight: bold;
+	display: inline-block;
+	list-style: none;
+	}
+	a#ex{
+	text-decoration: none;
+	color: blue;
+	}
+	a#ex:hover{
+	color: red;
+	} 
+
+	h1#write {
+		font-family: 'Slabo 27px', serif;
+		text-indent: 30px;
+		margin-left: 10px;
+	}
+	h1#material_divulgacao{
+		font-family: 'Slabo 27px', serif;
+		text-indent: 30px;
+		margin-left: 10px;
+	}
+	a#EOQ {
+		font-family: 'Slabo 27px', serif;
+		color: blue;
+		background-color: rgba(255,255,255,.4);
+		display: block;
+		width: 80%;
+		margin-left: 10px;
+		height: 25px;
+		text-decoration: none;
+		font-size: 19px;
+		transition: all .5s;
+		font-weight: bolder;
+	}
+	a#EOQ:hover {
+		font-family: 'Slabo 27px', serif;
+		color: white;
+		background-color: rgba(1,170,255,1);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*resultados*/
+	
+li#premios{
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	margin: 0px 50px 0px 50px;
+	font-weight: bold;
+	}
+
+	h1#chemie {
+		font-family: 'Slabo 27px', serif;
+		text-indent: 30px;
+	}
+	li#ouro {
+		background: url(gold.jpg) no-repeat;
+		display: inline-block;
+		width: 200px;
+		height: 250px;
+		margin: 50px;
+		margin-left: 60px;
+		line-height: 370px;
+		text-indent: 35px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	li#prata{
+		background: url(silver.jpg) no-repeat;
+		display: inline-block;
+		width: 200px;
+		height: 250px;
+		margin: 50px;
+		line-height: 370px;
+		text-indent: 40px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	li#bronze{
+		background: url(bronze.jpg) no-repeat 1px 0px;
+		display: inline-block;
+		width: 500px;
+		height: 250px;
+		margin: 50px;
+		line-height: 365px;
+		text-indent: 27px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	h1#premiados {
+		font-family: 'Slabo 27px', serif;
+		text-indent: 150px;
+		opacity:0;
+		position: fixed;
+	}
+
+	/*Coordenadores*/
+	h1#coord {
+		font-family: 'Slabo 27px', serif;
+		text-align: center;
+		background-color: rgba(118,209,255,1);
+		font-size: 15px;
+		height: 50px;
+		letter-spacing: 5px;
+		line-height: 50px;
+		transition: box-shadow .2s;
+	}
+
+	h1#coord:hover {
+		box-shadow: 0px 0px 0px rgba(0,0,0,.5);
+	}
+	}
+	
+	
